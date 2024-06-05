@@ -1,0 +1,21 @@
+.book-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.book-list li {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  justify-content: space-between;
+}
+
+.book-list span {
+  color: red;
+}
+
+.book-list button {
+  margin-left: 10px;
+  padding: 5px 10px;
+  cursor: pointer;
+}

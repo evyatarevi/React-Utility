@@ -1,0 +1,16 @@
+.book-form {
+  margin-bottom: 20px;
+}
+
+.book-form input {
+  padding: 8px;
+  margin-right: 10px;
+}
+
+.book-form button {
+  padding: 8px;
+}
+
+.error {
+  color: red;
+}
