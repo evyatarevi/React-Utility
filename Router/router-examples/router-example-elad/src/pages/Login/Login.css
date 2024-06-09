@@ -1,0 +1,57 @@
+/* src/pages/Login/Login.css */
+.login {
+  font-size: 1.5rem;
+  color: #333;
+  position: relative;
+}
+
+.login .form-group {
+  margin-bottom: 1rem;
+}
+
+.login label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.login input {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.login button {
+  width: 100%;
+  padding: 0.5rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.login button:hover {
+  background-color: #0056b3;
+}
+
+form .hacked-login {
+  position: absolute;
+  right: -30px;
+  top: -47px;
+  color: rgb(140, 28, 28);
+  font-size: 18px;
+  border: rgb(83, 83, 83) 1px solid;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.213);
+  padding: 5px 10px;
+  font-weight: bold;
+  background-color: white;
+  cursor: pointer;
+  transition: all 0.2s linear;
+  text-decoration: none;
+}
+
+form .hacked-login:hover {
+  transform: scale(0.9);
+  background-color: red;
+  color: white;
+}
