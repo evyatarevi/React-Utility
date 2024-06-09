@@ -32,4 +32,4 @@ navigate("/about", { state: { from: "home" } }); //Navigates to the /about route
 navigate("/about", { replace: true }); //Navigates to the /about route and replaces the current entry in the history stack instead of adding a new one.
 
 navigate(-1); // Go back
-navigate(1); // Go forward
+navigate(1); // Go forward`
