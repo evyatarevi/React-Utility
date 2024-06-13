@@ -33,3 +33,9 @@ navigate("/about", { replace: true }); //Navigates to the /about route and repla
 
 navigate(-1); // Go back
 navigate(1); // Go forward`
+
+// Using navigate outside of useEffect directly in the component body is problematic because it violates the rules of React's
+// rendering cycle. React components should be pure and should not cause side effects during rendering.
+// Why useEffect?
+// The useEffect hook is designed to handle side effects. It runs after the render cycle, ensuring that the rendering process is
+// complete and stable before any side effects occur. This makes useEffect the ideal place for actions like navigation.
