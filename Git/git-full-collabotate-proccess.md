@@ -143,3 +143,4 @@ Require branches to be up to date before merging: Check this box to ensure that 
 
 לפני כל פתיחת בראנצ׳ לעדכן את ה main בעזרת git pull. לבדוק שנמצאים בבראנצ׳ הנכון.
 במקרה שאתה עובד על בראנצ׳ ובמקביל הבראנצ׳ המרכזי אישר PR של בראנצ׳ אחר (כלומר הבראנצ׳ התמזג לmain). כדי לעדכן את הבראנצ׳ שלך בעדכון הזה צריך לעשות pull ל main , להכנס לבראנצ שלך ולעשות git merge main.
+d
