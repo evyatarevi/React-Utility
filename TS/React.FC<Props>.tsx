@@ -1,7 +1,10 @@
 // ex 1
 
+// When you see React.FC<Props>, it means that React.FC is a generic type, and Props is the type parameter being passed to it.
+// This allows you to specify the type of props that the functional component will receive.
 const Greeting: React.FC<Props> = ({ name, age }) => {
   interface Props {
+    //Defines the shape of the props the component expects.
     name: string;
     age?: number; // Optional prop
   }
